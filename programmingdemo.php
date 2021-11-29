@@ -226,7 +226,7 @@ ul, ol {
 			   $con=mysqli_connect('localhost','root');
 
 
-			mysqli_select_db($con,'uniquedeveloper');
+			mysqli_select_db($con,'uniquedeveloper2');
 
 			$q="select * from programming_languages";
 			$query=mysqli_query($con,$q);
